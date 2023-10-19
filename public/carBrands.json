@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Toyota",
+      "image_url": "https://example.com/toyota_logo.jpg"
+    },
+    {
+      "title": "Honda",
+      "image_url": "https://example.com/honda_logo.jpg"
+    },
+    {
+      "title": "Ford",
+      "image_url": "https://example.com/ford_logo.jpg"
+    },
+    {
+      "title": "Chevrolet",
+      "image_url": "https://example.com/chevrolet_logo.jpg"
+    },
+    {
+      "title": "BMW",
+      "image_url": "https://example.com/bmw_logo.jpg"
+    },
+    {
+      "title": "Tesla",
+      "image_url": "https://example.com/tesla_logo.jpg"
+    }
+  ]
