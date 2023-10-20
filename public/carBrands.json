@@ -2,31 +2,49 @@
     {
       "id": 1,
       "title": "Toyota",
-      "image_url": "https://i.ibb.co/nDnMX9b/toyota-car-brand-logo-editorial-symbol-free-vector.jpg"
+      "image_url": "https://i.ibb.co/nDnMX9b/toyota-car-brand-logo-editorial-symbol-free-vector.jpg",
+      "image_ad1": "https://i.ibb.co/4V3SzY6/Toyota-Ads-1.png",
+      "image_ad2": "https://i.ibb.co/t3w9QG6/Toyota-Ads-2.jpg",
+      "image_ad3": "https://i.ibb.co/7CsqLKJ/Toyota-Ads-1.jpg"
     },
     {
       "id": 2,
       "title": "Honda",
-      "image_url": "https://i.ibb.co/pJJCwqx/honda-logo-honda-icon-free-free-vector.jpg"
+      "image_url": "https://i.ibb.co/pJJCwqx/honda-logo-honda-icon-free-free-vector.jpg",
+      "image_ad1": "https://i.ibb.co/SdHTSK9/Honda-Ads-1.jpg",
+      "image_ad2": "https://i.ibb.co/TMSJW38/Honda-Ads-1.png",
+      "image_ad3": "https://i.ibb.co/6JwD2GL/Honda-Ads-2.jpg"
     },
     {
       "id": 3,
       "title": "Ford",
-      "image_url": "https://i.ibb.co/Gnn9qkZ/Logos-1.jpg"
+      "image_url": "https://i.ibb.co/Gnn9qkZ/Logos-1.jpg",
+      "image_ad1": "https://i.ibb.co/0nGq130/Ford-Ads-1.jpg",
+      "image_ad2": "https://i.ibb.co/sRdMBtd/Ford-Ads-2.jpg",
+      "image_ad3": "https://i.ibb.co/Cb3jkgV/Ford-Ads-3.jpg"
     },
     {
       "id": 4,
       "title": "Chevrolet",
-      "image_url": "https://i.ibb.co/gjBgPT2/Logos-1.webp"
+      "image_url": "https://i.ibb.co/gjBgPT2/Logos-1.webp",
+      "image_ad1": "https://i.ibb.co/PjmvFzk/chevrolet-ads-1.jpg",
+      "image_ad2": "https://i.ibb.co/BNtB35C/chevrolet-ads-2.jpg",
+      "image_ad3": "https://i.ibb.co/HBdxCqz/chevrolet-ads-3.jpg"
     },
     {
       "id": 5,
       "title": "BMW",
-      "image_url": "https://i.ibb.co/vYDj7XV/Logos-1.png"
+      "image_url": "https://i.ibb.co/vYDj7XV/Logos-1.png",
+      "image_ad1": "https://i.ibb.co/tqXyNZd/BMW-Ads-1.jpg",
+      "image_ad2": "https://i.ibb.co/fnYP6Hz/BMW-Ads-2.jpg",
+      "image_ad3": "https://i.ibb.co/p3HrWjK/BMW-Ads-3.jpg"
     },
     {
       "id": 6,
       "title": "Tesla",
-      "image_url": "https://i.ibb.co/2skjKLw/Logos-2.jpg"
+      "image_url": "https://i.ibb.co/2skjKLw/Logos-2.jpg",
+      "image_ad1": "https://i.ibb.co/2vbmfVg/tesla-ads-1.webp",
+      "image_ad2": "https://i.ibb.co/T11R3L6/tesla-ads-1.jpg",
+      "image_ad3": "https://i.ibb.co/hLwBSL0/tesla-ads-2.jpg"
     }
   ]
