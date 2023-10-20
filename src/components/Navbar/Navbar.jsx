@@ -1,18 +1,20 @@
 import { NavLink } from "react-router-dom";
 import './Navbar.css';
-// import { useContext } from "react";
-// import { AuthContext } from "../AuthProviders/AuthProvider";
+
+import { AuthContext } from "../AuthProvider/AuthProvider";
+import { useContext } from "react";
+
 
 const Navbar = () => {
 
-//   const{ user, logOut } = useContext(AuthContext);
+  const{ user, logOut } = useContext(AuthContext);
 
 
-//   const handleLogOut = () =>{
-//     logOut()
-//     .then(() => console.log('User logged Out'))
-//     .catch(error => console.error(error))
-//   }
+  const handleLogOut = () =>{
+    logOut()
+    .then(() => console.log('User logged Out'))
+    .catch(error => console.error(error))
+  }
 
   return (
     <div className="navbar bg-base-200 px-10">
@@ -44,6 +46,9 @@ const Navbar = () => {
             <li>
               <NavLink to="/cart">Cart</NavLink> 
             </li>
+            <li>
+              <button className="btn btn-error"><NavLink to="/addProducts">Add Products</NavLink></button> 
+            </li>
           </ul>
         </div>
       </div>
@@ -55,14 +60,7 @@ const Navbar = () => {
           </p>
         </a>
       </div>
-      <div className="navbar-end">
-      <ul>
-            <li>
-              <button className="btn btn-error"><NavLink to="/addProducts">Add Products</NavLink></button> 
-            </li>
-          </ul>
-      </div>
-      {/* {
+      {
         user? <> <div className="navbar-end"><div className="dropdown dropdown-end">
         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
           <div className="w-10 rounded-full">
@@ -88,7 +86,7 @@ const Navbar = () => {
                     </NavLink></li>
                     </ul>
                     </div></div></>
-      } */}
+      }
        
       </div>
     
