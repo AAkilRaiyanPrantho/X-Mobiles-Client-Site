@@ -47,7 +47,7 @@ const Navbar = () => {
               <NavLink to="/cart">Cart</NavLink> 
             </li>
             <li>
-              <button className="btn btn-error"><NavLink to="/addProducts">Add Products</NavLink></button> 
+              <button className="btn btn-error border-0 bg-green-600 text-center text-fuchsia-50 py-3"><NavLink to="/addProducts">Add Products</NavLink></button> 
             </li>
           </ul>
         </div>

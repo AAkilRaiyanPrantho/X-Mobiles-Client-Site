@@ -1,6 +1,8 @@
-const AddProducts = () => {
-  return (
-    <div>
+
+
+const UpdateProduct = () => {
+    return (
+        <div>
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-col">
           <div className="text-center lg:text-left">
@@ -107,7 +109,7 @@ const AddProducts = () => {
         </div>
       </div>
     </div>
-  );
+    );
 };
 
-export default AddProducts;
+export default UpdateProduct;

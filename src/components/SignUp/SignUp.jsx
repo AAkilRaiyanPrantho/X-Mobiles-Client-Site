@@ -83,15 +83,15 @@ const SignUp = () => {
   return (
     <div>
       <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="hero-content flex-col lg:flex-col">
           <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold">
               {" "}
-              <span className="text-[#66FCF1]">Sign </span>Up now!
+              <span className="text-[#ee4747]">Sign </span>Up now!
             </h1>
           </div>
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-            <form onSubmit={handleSignUp} className="card-body">
+            <form onSubmit={handleSignUp} className="card-body w-96 backdrop-blur-lg">
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Name</span>
@@ -149,13 +149,13 @@ const SignUp = () => {
                 <p className="mt-4">
                   Already a member?{" "}
                   <Link to="/signIn">
-                    <span className="text-[#66FCF1]">Sign In</span>
+                    <span className="text-[#ee4747]">Sign In</span>
                   </Link>
                 </p>
               </div>
               <div className="form-control mt-6">
                 <button
-                  className="btn outline outline-[#66FCF1] text-[#66FCF1]"
+                  className="btn outline outline-[#ee4747] text-[#ee4747]"
                 >Sign Up
                 </button>
               </div>
