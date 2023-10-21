@@ -3,19 +3,19 @@ import PropTypes from "prop-types";
 const Product = ( {filteredCar} ) => {
 
 
-    const{ brandName, photo, name, carType, price, description, rating} = filteredCar;
+    const{ brandName, photo, name, carType, price, rating} = filteredCar;
 
     return (
         <div>
            {
             brandName?
                 (<>
-                <div className="card w-full h-screen bg-base-100 shadow-xl">
+                <div className="card w-full h-screen bg-base-100 shadow-xl my-4">
                 <figure>
                   <img
                     src={photo}
                     alt={name}
-                    className="w-full max-lg:h-[500px]"
+                    className="w-full h-[500px] max-lg:h-[250px]"
                   />
                 </figure>
                 <div className="card-body">
@@ -23,12 +23,10 @@ const Product = ( {filteredCar} ) => {
                     {name}
                   </h2>
                   <h3 className="font-bold">{brandName}</h3>
-                  <p>{description}</p>
-                  
-                  <div className="card-actions justify-around mb-4">
-                    <div className="badge badge-outline">{price}$</div>
-                    <div className="badge badge-outline">{carType}</div>
-                    <div className="badge badge-outline">{rating} Stars</div>
+                  <div className="card-actions justify-center mb-4 gap-10">
+                    <div className="badge badge-secondary badge-outline p-4">{price}$</div>
+                    <div className="badge badge-primary badge-outline p-4">{carType}</div>
+                    <div className="badge badge-accent badge-outline p-4">{rating} Stars</div>
                   </div>
                   <div className="flex justify-around max-lg:justify-center max-lg:gap-x-2 mb-2">
                   <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg btn-outline btn-accent">Update</button>
