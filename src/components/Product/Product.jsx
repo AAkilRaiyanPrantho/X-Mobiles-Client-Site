@@ -1,9 +1,10 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Product = ( {filteredCar} ) => {
 
 
-    const{ brandName, photo, name, carType, price, rating} = filteredCar;
+    const{_id, brandName, photo, name, carType, price, rating} = filteredCar;
 
     return (
         <div>
@@ -29,8 +30,8 @@ const Product = ( {filteredCar} ) => {
                     <div className="badge badge-accent badge-outline p-4">{rating} Stars</div>
                   </div>
                   <div className="flex justify-around max-lg:justify-center max-lg:gap-x-2 mb-2">
-                  <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg btn-outline btn-accent">Update</button>
-                  <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg  btn-outline btn-error">Details</button>
+                  <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg btn-outline btn-accent"><Link to='/update'>Update</Link></button>
+                  <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg  btn-outline btn-error"><Link to={`/details/${_id}`}>Details</Link> </button>
                   </div>
                   <div>
                   <button className="btn btn-block btn-outline btn-info mb-2">Add to Cart</button>
