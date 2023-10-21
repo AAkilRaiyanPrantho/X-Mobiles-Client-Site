@@ -31,7 +31,7 @@ const Product = ( {filteredCar} ) => {
                   </div>
                   <div className="flex justify-around max-lg:justify-center max-lg:gap-x-2 mb-2">
                   <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg btn-outline btn-accent"><Link to='/update'>Update</Link></button>
-                  <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg  btn-outline btn-error"><Link to={`/details/${_id}`}>Details</Link> </button>
+                  <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg  btn-outline btn-error"><Link to={`/details/:${_id}`}>Details</Link> </button>
                   </div>
                   <div>
                   <button className="btn btn-block btn-outline btn-info mb-2">Add to Cart</button>

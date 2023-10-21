@@ -8,7 +8,7 @@ const UpdateProduct = () => {
           <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold">
               {" "}
-              <span className="text-[#ee4747]">Add </span>Items!
+              <span className="text-[#ee4747]">Update </span>Items!
             </h1>
           </div>
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
@@ -98,7 +98,7 @@ const UpdateProduct = () => {
 
               <div className="form-control mt-6">
                 <button className="btn outline outline-[#ee4747] text-[#ee4747]">
-                  Add Product
+                  Update Product
                 </button>
               </div>
             </form>
