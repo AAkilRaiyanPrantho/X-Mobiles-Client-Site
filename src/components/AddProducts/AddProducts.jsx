@@ -19,7 +19,7 @@ const AddProducts = () => {
     console.log(newProduct);
 
     // Sending data to the server
-    fetch('http://localhost:5000/product',{
+    fetch('https://programming-hero-assignment-10-server-cc9kkz8ai.vercel.app/product',{
       method: 'POST',
       headers: {
         'content-type': 'application/json'

@@ -40,7 +40,7 @@ const router = createBrowserRouter([
       {
         path:"/details/:id",
         element:<PrivateRoute><Details></Details></PrivateRoute>,
-        loader: () => fetch('http://localhost:5000/product')
+        loader: () => fetch('https://programming-hero-assignment-10-server-cc9kkz8ai.vercel.app/product')
       },
       {
         path:"/cart",
@@ -49,7 +49,7 @@ const router = createBrowserRouter([
       {
         path:"/products/:title",
         element:<Products></Products>,
-        loader: () => fetch('http://localhost:5000/product')
+        loader: () => fetch('https://programming-hero-assignment-10-server-cc9kkz8ai.vercel.app/product')
       },
       {
         path: "/signUp",
