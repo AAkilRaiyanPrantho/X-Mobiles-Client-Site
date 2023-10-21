@@ -1,4 +1,46 @@
+import Swal from 'sweetalert2'
+
+
+
 const AddProducts = () => {
+  const handleAddProducts = e => {
+    e.preventDefault();
+    const form = e.target;
+
+    const name = form.name.value;
+    const photo = form.photo.value;
+    const brandName = form.carBrands.value;
+    const carType = form.carType.value;
+    const price = form.price.value;
+    const description = form.shortDescription.value;
+    const rating = form.rating.value;
+
+    const newProduct = {name,photo,brandName,carType,price,description,rating}
+    console.log(newProduct);
+
+    // Sending data to the server
+    fetch('http://localhost:5000/product',{
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json'
+      },
+      body: JSON.stringify(newProduct)
+    })
+    .then(res => res.json())
+    .then(data => {
+      console.log(data)
+      if(data.insertedId){
+        Swal.fire({
+          title: 'Congratulations',
+          text: 'Data Entry Successful!',
+          icon: 'success',
+          confirmButtonText: 'Cool'
+        })
+
+      }
+    })
+
+  }
   return (
     <div>
       <div className="hero min-h-screen bg-base-200">
@@ -10,7 +52,7 @@ const AddProducts = () => {
             </h1>
           </div>
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-            <form className="card-body w-96 backdrop-blur-lg">
+            <form onSubmit={handleAddProducts} className="card-body w-96 backdrop-blur-lg">
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Name</span>
@@ -84,7 +126,7 @@ const AddProducts = () => {
                 <label className="label">
                   <span className="label-text">Rating</span>
                 </label>
-                <select id="carType" name="carType" className="p-4 border-2 rounded-lg" required>
+                <select id="rating" name="rating" className="p-4 border-2 rounded-lg" required>
                   <option value="5">5 Stars</option>
                   <option value="4">4 Stars</option>
                   <option value="3">3 Stars</option>

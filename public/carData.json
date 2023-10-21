@@ -1,0 +1,221 @@
+{
+    "car_data": [
+      {
+        "id": 1,
+        "name": "Toyota Corolla",
+        "brandName": "Toyota",
+        "carType": "Sedan",
+        "price": 8000,
+        "short_description": "The Toyota Corolla is a reliable and fuel-efficient sedan, known for its spacious interior and comfortable ride. It's an ideal choice for daily commuting and family trips.",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "name": "Toyota RAV4",
+        "brandName": "Toyota",
+        "carType": "SUV",
+        "price": 9500,
+        "short_description": "The Toyota RAV4 is a compact SUV known for its reliability and off-road capability. It combines ruggedness with modern amenities for an enjoyable driving experience.",
+        "rating": 5
+      },
+      {
+        "id": 3,
+        "name": "Toyota Camry",
+        "brandName": "Toyota",
+        "carType": "Sports Car",
+        "price": 7500,
+        "short_description": "The Toyota Camry is a popular midsize sedan, offering a perfect blend of style, comfort, and efficiency. It's a great choice for various lifestyles.",
+        "rating": 4
+      },
+      {
+        "id": 4,
+        "name": "Toyota Prius",
+        "brandName": "Toyota",
+        "carType": "Hatchback",
+        "price": 8500,
+        "short_description": "The Toyota Prius is a groundbreaking hybrid car known for its exceptional fuel economy and environmental friendliness. It's a pioneer in green technology.",
+        "rating": 4
+      },
+      {
+        "id": 5,
+        "name": "Honda CR-V",
+        "brandName": "Honda",
+        "carType": "SUV",
+        "price": 8800,
+        "short_description": "The Honda CR-V is a versatile SUV with ample cargo space and advanced safety features. It offers a smooth and comfortable ride for both city and off-road adventures.",
+        "rating": 5
+      },
+      {
+        "id": 6,
+        "name": "Honda Civic",
+        "brandName": "Honda",
+        "carType": "Hatchback",
+        "price": 7500,
+        "short_description": "The Honda Civic Hatchback is a sporty and efficient compact car, perfect for urban driving. It offers a well-designed interior and excellent fuel economy.",
+        "rating": 4
+      },
+      {
+        "id": 7,
+        "name": "Honda Accord",
+        "brandName": "Honda",
+        "carType": "Sedan",
+        "price": 8200,
+        "short_description": "The Honda Accord is a well-rounded midsize sedan, known for its comfortable ride and quality interior. It's a favorite among family-oriented drivers.",
+        "rating": 4
+      },
+      {
+        "id": 8,
+        "name": "Honda Fit",
+        "brandName": "Honda",
+        "carType": "Hatchback",
+        "price": 7200,
+        "short_description": "The Honda Fit is a versatile subcompact car that maximizes interior space. It's perfect for city life and provides great maneuverability.",
+        "rating": 4
+      },
+      {
+        "id": 9,
+        "name": "Ford Mustang",
+        "brandName": "Ford",
+        "carType": "Sports Car",
+        "price": 9900,
+        "short_description": "The Ford Mustang is an American classic known for its powerful V8 engine and iconic design. It delivers a thrilling driving experience with a touch of nostalgia.",
+        "rating": 5
+      },
+      {
+        "id": 10,
+        "name": "Ford Escape",
+        "brandName": "Ford",
+        "carType": "SUV",
+        "price": 9300,
+        "short_description": "The Ford Escape is a compact SUV that combines style and functionality. It's designed for urban adventurers and offers a comfortable ride.",
+        "rating": 4
+      },
+      {
+        "id": 11,
+        "name": "Ford Fusion",
+        "brandName": "Ford",
+        "carType": "Sedan",
+        "price": 7600,
+        "short_description": "The Ford Fusion is a midsize sedan that balances style and practicality. It's known for its comfortable seats and advanced tech features.",
+        "rating": 4
+      },
+      {
+        "id": 12,
+        "name": "Ford Focus",
+        "brandName": "Ford",
+        "carType": "Hatchback",
+        "price": 8100,
+        "short_description": "The Ford Focus is a compact hatchback offering a fun-to-drive experience with responsive handling. It's a great choice for city dwellers.",
+        "rating": 4
+      },
+      {
+        "id": 13,
+        "name": "Chevrolet Impala",
+        "brandName": "Chevrolet",
+        "carType": "Sedan",
+        "price": 7500,
+        "short_description": "The Chevrolet Impala is a spacious and comfortable sedan with a focus on technology and safety. It's perfect for those seeking a blend of style and practicality.",
+        "rating": 4
+      },
+      {
+        "id": 14,
+        "name": "Chevrolet Suburban",
+        "brandName": "Chevrolet",
+        "carType": "SUV",
+        "price": 9800,
+        "short_description": "The Chevrolet Suburban is a full-size SUV with abundant passenger and cargo space. It's a great choice for large families and long road trips.",
+        "rating": 5
+      },
+      {
+        "id": 15,
+        "name": "Chevrolet Malibu",
+        "brandName": "Chevrolet",
+        "carType": "Sports Car",
+        "price": 7600,
+        "short_description": "The Chevrolet Malibu is a midsize sedan with a smooth ride and a comfortable interior. It offers excellent fuel efficiency for everyday use.",
+        "rating": 4
+      },
+      {
+        "id": 16,
+        "name": "Chevrolet Spark",
+        "brandName": "Chevrolet",
+        "carType": "Hatchback",
+        "price": 8200,
+        "short_description": "The Chevrolet Spark is a compact hatchback designed for city living. It's small in size but big on features, making it easy to park and maneuver.",
+        "rating": 4
+      },
+      {
+        "id": 17,
+        "name": "BMW 3 Series",
+        "brandName": "BMW",
+        "carType": "Hatchback",
+        "price": 9400,
+        "short_description": "The BMW 3 Series is a luxury sedan that combines performance with refinement. It offers a premium driving experience and cutting-edge technology.",
+        "rating": 5
+      },
+      {
+        "id": 18,
+        "name": "BMW X5",
+        "brandName": "BMW",
+        "carType": "SUV",
+        "price": 9900,
+        "short_description": "The BMW X5 is a luxury SUV that offers a spacious and upscale interior. It's designed for those who want both performance and luxury in one package.",
+        "rating": 5
+      },
+      {
+        "id": 19,
+        "name": "BMW 5 Series",
+        "brandName": "BMW",
+        "carType": "Sedan",
+        "price": 9100,
+        "short_description": "The BMW 5 Series is a luxury sedan that sets the standard for elegance and performance. It offers a balance of power, comfort, and advanced technology.",
+        "rating": 4
+      },
+      {
+        "id": 20,
+        "name": "BMW 2 Series",
+        "brandName": "BMW",
+        "carType": "Sports Car",
+        "price": 9800,
+        "short_description": "The BMW 2 Series is a compact luxury coupe that delivers sporty performance and a stylish design. It's perfect for those who love driving.",
+        "rating": 5
+      },
+      {
+        "id": 21,
+        "name": "Tesla Model 3",
+        "brandName": "Tesla",
+        "carType": "Sedan",
+        "price": 10000,
+        "short_description": "The Tesla Model 3 is an electric sedan that redefines sustainability and innovation. It features cutting-edge autopilot capabilities and impressive electric range.",
+        "rating": 5
+      },
+      {
+        "id": 22,
+        "name": "Tesla Model Y",
+        "brandName": "Tesla",
+        "carType": "SUV",
+        "price": 9600,
+        "short_description": "The Tesla Model Y is an all-electric compact SUV that offers both performance and versatility. It combines an electric powertrain with modern tech features.",
+        "rating": 5
+      },
+      {
+        "id": 23,
+        "name": "Tesla Model S",
+        "brandName": "Tesla",
+        "carType": "Sedan",
+        "price": 9900,
+        "short_description": "The Tesla Model S is a premium electric sedan with unmatched acceleration and a futuristic interior. It's a leader in the electric car revolution.",
+        "rating": 5
+      },
+      {
+        "id": 24,
+        "name": "Tesla Model X",
+        "brandName": "Tesla",
+        "carType": "SUV",
+        "price": 9800,
+        "short_description": "The Tesla Model X is a high-performance electric SUV with distinctive Falcon Wing doors and a spacious, high-tech interior. It's a marvel of electric engineering.",
+        "rating": 4
+      }
+    ]
+  }
+  
